@@ -1,0 +1,24 @@
+/* responsive.css */
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem 0;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .toggle-button {
+    display: flex;
+  }
+  .cards {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
